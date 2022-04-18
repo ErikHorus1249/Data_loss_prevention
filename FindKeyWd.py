@@ -18,6 +18,12 @@ class FindKeyWd:
             print("Wrong file's path, please try again!")
             sys.exit()
         return {"duration":round(time() - start,1), "found": True} if re.search(self.keywd, para) else {"duration":round(time() - start,1), "found": False}
+    
+    
+class ExtracPDF:
+    
+    def __init__(self) -> None:
+        pass
         
             
         
