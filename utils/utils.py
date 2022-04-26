@@ -1,4 +1,3 @@
-from curses import keyname
 from json.tool import main
 import sys
 import textract
@@ -6,7 +5,6 @@ from  time import time
 import re
 import distro 
 from shutil import which
-import logging
 import os
 
 class FindKeyWd:

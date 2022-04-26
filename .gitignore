@@ -1,2 +1,7 @@
+# for python env 
 venv
 env
+
+# for python cache 
+*.pyc
+*.pyo
