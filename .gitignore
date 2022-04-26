@@ -5,3 +5,6 @@ env
 # for python cache 
 *.pyc
 *.pyo
+
+# for pytest
+.pytest_cache

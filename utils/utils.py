@@ -47,9 +47,6 @@ class ExtracPDF:
         command = f'tshark -r {pcap_path} --export-objects "{protocol},{extracted_dir}"'
         return os.system(command)
         
-        
-    
-
 if __name__ == "__main__":
     ExtracPDF.is_tool()
     ExtracPDF.extract("/home/erik/Videos/ExtractPcap/Raw.pcap", "Data", "http")
