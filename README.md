@@ -15,6 +15,8 @@
   
 
 $ python3 -m venv venv
+$ source source venv/bin/activate
+$ pip install wheel
 
   
 
