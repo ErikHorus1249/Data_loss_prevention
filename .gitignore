@@ -8,3 +8,5 @@ env
 
 # for pytest
 .pytest_cache
+
+Data
