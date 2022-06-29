@@ -1,8 +1,3 @@
-
-
-  
-  
-
 ## Searching text in a PDF using Python
 ## :warning: This tool only works in Linux system :warning:
   
